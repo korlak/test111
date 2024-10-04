@@ -1,0 +1,66 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+.container{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+.galochka{
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+.answ{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 7px;
+    text-align: center;
+    align-content: center;
+
+    margin: 0 0 0 10px;
+}
+.question{
+    margin-bottom: 20px;
+}
+.answers{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-start{
+    width: 80px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    text-align: center;
+    align-items: center;
+}
+
+.true-answers{
+    display: none;
+    width: 200px;
+    height: 100px;
+}
+
+table{
+    border: 1px solid black;
+
+}
+
+td{
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    border: 1px solid black;
+
+}
